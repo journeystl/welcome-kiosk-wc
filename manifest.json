@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "WelcomeKioisk_WC",
+  "short_name": "WelcomeKioisk",
+  "description": "Welcome Center app for The Journey West County",
+
+  "version": "0.0.1.0",
+
+  "icons": {
+    "16": "assets/icon_16.png",
+    "128": "assets/icon_128.png"
+  },
+
+  "app": {
+    "background": {
+      "scripts": ["background.js"]
+    }
+  },
+  "permissions": [
+    "webview"
+  ],
+  "kiosk_enabled" : true,
+  "kiosk_only" : true
+}
