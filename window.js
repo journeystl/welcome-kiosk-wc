@@ -1,12 +1,11 @@
 window.onload = function() {
   // http://thejourney.org/?mobileapp
-  var webview = document.getElementById("kiosk");
-  
-  function clickMe() {
-    alert('clickMe test');
-    webview.src('http://google.com');
-  }
 };
 
+function clickMe() {
+  var webview = document.getElementById("kiosk");
+  webview.src('http://apple.com');
+}
 
 
+document.querySelector("#clickMe").onclick = clickMe;
