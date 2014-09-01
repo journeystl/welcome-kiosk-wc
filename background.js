@@ -5,12 +5,13 @@
  * @see http://developer.chrome.com/apps/app.window.html
  */
 chrome.app.runtime.onLaunched.addListener(function() {
-  console.log('foobar3');
+
   chrome.app.window.create(
     "window.html",
     {
-      id: "mainWindow"
+		id: "mainWindow",
     }
   );
-  console.log('foobar');
+
+
 });
