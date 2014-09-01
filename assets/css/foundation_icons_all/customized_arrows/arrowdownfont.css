@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'arrowdownfont';
+  src: url('arrowdownfont.eot?94781814');
+  src: url('arrowdownfont.eot?94781814#iefix') format('embedded-opentype'),
+       url('arrowdownfont.woff?94781814') format('woff'),
+       url('arrowdownfont.ttf?94781814') format('truetype'),
+       url('arrowdownfont.svg?94781814#arrowdownfont') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+ 
+.icon-angle-down:before { content: '\e800'; font-family: "arrowdownfont";} /* '' */
+.icon-down-open-big:before { content: '\e801'; font-family: "arrowdownfont";} /* '' */
+.icon-down-open:before { content: '\e802'; font-family: "arrowdownfont";} /* '' */
