@@ -13,7 +13,7 @@
 
   "app": {
     "background": {
-      "scripts": ["background.js"]
+      "scripts": ["assets/js/jquery-2.1.1.min.js","background.js"]
     }
   },
   "permissions": [
