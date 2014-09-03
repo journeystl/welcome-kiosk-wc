@@ -2,14 +2,29 @@
 <html>
   <head>
     <title>Welcome Kiosk | West County</title>
+    <link rel="stylesheet" href="/assets/css/foundation.css">
+    <link rel="stylesheet" href="/assets/css/custom.css">
     <link rel="stylesheet" href="/assets/css/app.css">
   </head>
 
   <body>
-    <a href="#" class="nav" data-target="http://thejourney.org">The Journey</a>
-    <a href="#" class="nav" data-target="http://google.com">Google</a>
-    <a href="#" class="nav" data-target="http://apple.com">Apple</a>
-    <webview class="webview" id="kiosk" src="http://thejourney.org"></webview>
+
+    <h1>Welcome Center | West County</h1>
+    <h2>Welcome Center <small>West County<small></h2>
+
+<ul class="block-grid three-up mobile-five-up">
+  <li>Three-up element</li>
+  <li>Three-up element</li>
+  <li>Three-up element</li>
+  <li>Three-up element</li>
+  <li>Three-up element</li>
+</ul>
+
+
+    <a href="#" class="round medium button" data-target="http://thejourney.org?notmobileapp">Home Page</a>
+    <a href="#" class="round medium button" data-target="http://thejourney.org/community?notmobileapp">Community Groups</a>
+    <a href="#" class="round medium button" data-target="http://apple.com">Apple</a>
+    <webview class="webview" id="kiosk" src=""></webview>
   </body>
   <script src="assets/js/jquery-2.1.1.min.js"></script>
   <script src="window.js"></script>
