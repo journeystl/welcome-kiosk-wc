@@ -10,6 +10,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
     "window.html",
     {
 		id: "mainWindow",
+		state: "fullscreen"
     }
   );
 

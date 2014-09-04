@@ -4,7 +4,7 @@
   "short_name": "Welcome-WC",
   "description": "Welcome Center app for The Journey West County",
 
-  "version": "0.0.1.1",
+  "version": "0.0.1.2",
 
   "icons": {
     "16": "assets/img/icon_16.png",
@@ -13,11 +13,13 @@
 
   "app": {
     "background": {
-      "scripts": ["assets/js/jquery-2.1.1.min.js","background.js"]
+      "scripts": ["background.js"]
     }
   },
   "permissions": [
-    "webview"
+    "webview",
+    "clipboardRead",
+    "clipboardWrite"
   ],
   "kiosk_enabled" : true
 }
