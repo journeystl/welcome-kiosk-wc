@@ -16,4 +16,5 @@ chrome.app.runtime.onLaunched.addListener(function() {
   );
   chrome.accessibilityFeatures.virtualKeyboard.get();
   console.log(chrome.accessibilityFeatures.virtualKeyboard.get());
+  chrome.accessibilityFeatures.virtualKeyboard.set(true);
 });
