@@ -10,9 +10,9 @@ chrome.app.runtime.onLaunched.addListener(function() {
     "window.html",
     {
 		id: "mainWindow",
-		state: "fullscreen"
+		state: "fullscreen",
+		frame: "none"
     }
   );
-
-
+  
 });
