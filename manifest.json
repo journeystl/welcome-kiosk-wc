@@ -21,7 +21,7 @@
     "clipboardRead",
     "clipboardWrite",
     "accessibilityFeatures.read",
-    "accessibilityFeatures.modify",
+    "accessibilityFeatures.modify"
   ],
   "kiosk_enabled" : true
 }
