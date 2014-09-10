@@ -22,10 +22,6 @@
     "clipboardWrite",
     "accessibilityFeatures.read",
     "accessibilityFeatures.modify",
-    "accessibilityFeatures": [
-      "read",
-      "modify"
-    ]
   ],
   "kiosk_enabled" : true
 }

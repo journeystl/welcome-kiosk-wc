@@ -20,4 +20,7 @@ chrome.app.runtime.onLaunched.addListener(function() {
   chrome.accessibilityFeatures.virtualKeyboard.get(
           {'incognito': false},
           function(details) {console.log(JSON.stringify(details));});
+  chrome.accessibilityFeatures.virtualKeyboard.set(
+          {value: true, scope: 'regular'},
+          function() {console.log('WORKED!');});
 });
