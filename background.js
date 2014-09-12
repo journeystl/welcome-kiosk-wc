@@ -9,12 +9,11 @@ chrome.app.runtime.onLaunched.addListener(function() {
   chrome.app.window.create(
     "window.html",
     {
-		id: "mainWindow"
+		id: "mainWindow",
+		state: "fullscreen",
+		frame: "none"
     }
   );
 
 
-  chrome.accessibilityFeatures.virtualKeyboard.set(
-          {value: true, scope: 'regular'}
-  );
 });
