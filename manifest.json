@@ -11,10 +11,7 @@
     "128": "assets/img/icon_128.png"
   },
 
-  "app": {
-    "background": {
-      "scripts": ["background.js"]
-    }
+
   },
   "permissions": [
     "webview",
