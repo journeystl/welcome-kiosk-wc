@@ -22,6 +22,6 @@ chrome.app.runtime.onLaunched.addListener(function() {
   //         function(details) {console.log(JSON.stringify(details));});
   chrome.accessibilityFeatures.virtualKeyboard.set(
           {value: true, scope: 'regular'},
-          // function() {console.log('WORKED!');
-  });
+          // function() {console.log('WORKED!');}
+  );
 });
