@@ -15,12 +15,13 @@ chrome.app.runtime.onLaunched.addListener(function() {
     }
   );
 
-  console.log('background.js');
+  // console.log('background.js');
   // chrome.accessibilityFeatures.virtualKeyboard.set(true);
-  chrome.accessibilityFeatures.virtualKeyboard.get(
-          {'incognito': false},
-          function(details) {console.log(JSON.stringify(details));});
+  // chrome.accessibilityFeatures.virtualKeyboard.get(
+  //         {'incognito': false},
+  //         function(details) {console.log(JSON.stringify(details));});
   chrome.accessibilityFeatures.virtualKeyboard.set(
           {value: true, scope: 'regular'},
-          function() {console.log('WORKED!');});
+          // function() {console.log('WORKED!');
+  });
 });
