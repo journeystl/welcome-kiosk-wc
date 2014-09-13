@@ -19,9 +19,7 @@
   "permissions": [
     "webview",
     "clipboardRead",
-    "clipboardWrite",
-    "accessibilityFeatures.read",
-    "accessibilityFeatures.modify"
+    "clipboardWrite"
   ],
   "kiosk_enabled" : true
 }
