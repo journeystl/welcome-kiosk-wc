@@ -33,7 +33,7 @@ function runApp() {
   );
 
 
-  chrome.accessibilityFeatures.virtualKeyboard.set(
-          {value: true, scope: 'regular'}
-    );
+  // chrome.accessibilityFeatures.virtualKeyboard.set(
+  //         {value: true, scope: 'regular'}
+  //   );
 }
