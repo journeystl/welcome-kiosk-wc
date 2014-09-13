@@ -26,14 +26,10 @@ function runApp() {
   chrome.app.window.create(
     "window.html",
     {
-    id: "mainWindow",
     state: "fullscreen",
     frame: "none"
     }
   );
 
 
-  // chrome.accessibilityFeatures.virtualKeyboard.set(
-  //         {value: true, scope: 'regular'}
-  //   );
 }
