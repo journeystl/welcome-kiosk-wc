@@ -1,3 +1,5 @@
+// WC
+
 /**
  * Listens for the app launching then creates the window
  *
@@ -17,6 +19,10 @@ chrome.app.runtime.onRestarted.addListener(function() {
   runApp();
 });
 
+chrome.app.window.onClosed.addListener(function() {
+  chrome.power.releaseKeepAwake();
+})
+
 /**
  * Creates the window for the application.
  *
@@ -30,6 +36,5 @@ function runApp() {
     frame: "none"
     }
   );
-
-
+  chrome.power.requestKeepAwake('display');
 }
