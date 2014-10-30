@@ -22,7 +22,7 @@ chrome.app.runtime.onRestarted.addListener(function() {
 
 
 chrome.app.window.onClosed.addListener(function() {
-  chrome.power.releaseKeepAwake();
+  releaseAwake();
 })
 
 // chrome.app.window.unresponsive.addListener(function() {
@@ -44,5 +44,10 @@ function runApp() {
     frame: "none"
     }
   );
-  chrome.power.requestKeepAwake('display');
+  chrome.power.requestKeepAwake("display");
+  console.log('after awake!');
+}
+
+function releaseAwake() {
+  chrome.power.releaseKeepAwake();
 }
