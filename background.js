@@ -15,13 +15,21 @@ chrome.app.runtime.onLaunched.addListener(function() {
  *
  * @see http://developer.chrome.com/trunk/apps/app.runtime.html
  */
+
 chrome.app.runtime.onRestarted.addListener(function() {
   runApp();
 });
 
+
 chrome.app.window.onClosed.addListener(function() {
   chrome.power.releaseKeepAwake();
 })
+
+// chrome.app.window.unresponsive.addListener(function() {
+//   window.reload();
+// })
+
+
 
 /**
  * Creates the window for the application.
